@@ -1,0 +1,23 @@
+
+Your first step is to have Java JDK. This program should be compiled under at least 1.7 JDK. The latest as of now is JDK 1.8.
+Download this from Oracle, or use OpenJDK, but rather use Oracle.
+
+To actually use this file, you will need Java's BIN in your path (environment variables). This should be done automatically,
+if not, append it to your PATH.
+
+Use the following command format to build.
+
+javac [name].java
+(Example: javac Main.java)
+
+This will build it. Alternatively, you can plug this into an eclipse project, save it, and it should build automatically.
+Then you just have to find the file in your workspace.
+
+Use the following command format to run.
+
+java [name without extension]
+(Example: java Main)
+
+Please note your CMD should be cd'd to your directory in wish you want to use this. Java lacks the PATH environment variable
+when it looks up the file to run. So, only if your source/class you are trying to javac or java is in the immediate directory
+or javac/java's bin folder will these two exe's work.
